@@ -1,0 +1,38 @@
+.apresentacao{
+    display: flex;
+    justify-content: space-between;
+
+    height: 90vh;
+    padding: 0 64px;
+
+    background-color: #08292e;
+
+    text-align: center;
+    align-items: center;
+}
+
+.apresentacao div{
+    margin-left:  64px;
+}
+
+.apresentacao h1{
+    font-size: 64px;
+    color: #93e7f4;
+}
+
+.apresentacao h2{
+    font-size: 32px;
+    margin: 0;
+}
+
+.apresentacao p{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.apresentacao img{
+    max-height: 360px;
+    max-width: 350px;
+    margin-right: 64px;
+}
