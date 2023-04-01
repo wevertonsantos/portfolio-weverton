@@ -5,9 +5,11 @@ const Apresentacao = () => {
     return(
         <section className="apresentacao">
             <div>
+                <h2>Olá, eu sou</h2>
                 <h1>Weverton Santos</h1>
-                <h2>Desenvolvedor Front-End</h2>
-                <p>Apaixonado por criar.</p>
+                <p>Criações e experiência no desenvolvimento front-end</p>
+                <button>Download CV</button>
+                <button>Contrate-me</button>
             </div>
             <img src={imgProgramador}/>
         </section>

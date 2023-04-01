@@ -4,10 +4,7 @@
 
     height: 90vh;
     padding: 0 64px;
-
-    background-color: #08292e;
-
-    text-align: center;
+    
     align-items: center;
 }
 
@@ -29,9 +26,23 @@
     font-size: 25px;
     margin-top: 10px;
     color: #fff;
+    width: 400px
+}
+
+.apresentacao button{
+    font-family: 'Quicksand';
+    font-weight: 700;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 5px;
 }
 
 .apresentacao img{
+    background-color: #7356b7;
+    border-radius: 100%;
     max-height: 360px;
     max-width: 350px;
     margin-right: 64px;
