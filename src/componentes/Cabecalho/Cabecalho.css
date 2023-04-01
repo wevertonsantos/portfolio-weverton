@@ -5,12 +5,12 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
-	background-color: #08292e;
 }
 
 .cabecalho h1{
-	padding-left: 32px;
+	margin-left: 32px;
+	border-radius: 90%;
+	padding: 15px;
 }
 
 .cabecalho div{
@@ -19,8 +19,19 @@
 
 .cabecalho h3{
 	margin-right: 32px;
+	padding-bottom: 5px;
+
 	border-bottom: 1px solid #93e7f4;
-	padding-bottom: 4px;
+	transition: 1s;
+}
+
+
+.cabecalho h3:hover{
+	background-color: #7356b7;
+	border-radius: 90px;
+	padding: 2px 15px;
+	transition: 1s;
+	border-bottom: 1px solid #fff;
 }
 
 .cabecalho h1,h3{
