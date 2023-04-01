@@ -1,0 +1,30 @@
+.cabecalho{
+	margin: 0;
+	height: 10vh;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: #08292e;
+}
+
+.cabecalho h1{
+	padding-left: 32px;
+}
+
+.cabecalho div{
+	display: flex;
+}
+
+.cabecalho h3{
+	margin-right: 32px;
+	border-bottom: 1px solid #93e7f4;
+	padding-bottom: 4px;
+}
+
+.cabecalho h1,h3{
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+}
