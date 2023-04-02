@@ -1,7 +1,7 @@
 import Cabecalho from "./componentes/Cabecalho"
 import Apresentacao from "./componentes/Apresentacao"
-import Tecnologias from "./componentes/Tecnologias"
 import Sobre from "./componentes/Sobre"
+import Tecnologias from "./componentes/Tecnologias"
 
 function App() {
   return (
