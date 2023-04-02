@@ -1,4 +1,4 @@
-# Portfolio para as pessoas me conhecerem um pouco mais
+# Portfolio para as pessoas me conhecer um pouco mais
 
 ## Link do portfolio:
 
