@@ -1,14 +1,16 @@
 import './Cabecalho.css'
 
-const Cabecalho = () => {
+const Cabecalho = ({acao}) => {
 	return(
-		<header className="cabecalho">
+		<header className={acao ? 'ativaCor' : ''}>
 			<h1>WS</h1>
 			<div>
-				<h3>Principal</h3>
-				<h3>Sobre</h3>
-				<h3>Habilidades</h3>
-				<h3>Projetos</h3>
+				<ul>
+					<li><a href=''>Principal</a></li>
+					<li><a href=''>Sobre</a></li>
+					<li><a href=''>Tecnologias</a></li>
+					<li><a href=''>Projetos</a></li>
+				</ul>
 			</div>
 		</header>
 	)
