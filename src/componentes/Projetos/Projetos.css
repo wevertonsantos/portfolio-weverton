@@ -1,0 +1,39 @@
+.projetos{
+    text-align: center;
+    height: 80vh;
+    padding: 0px 64px;
+}
+
+.projetos h1{
+    margin-bottom: 50px;
+    border-bottom: 1px solid #93e7f4;
+    display: inline-block;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container div{
+    margin: 10px;
+    background-color: #fff;
+    width: 300px;
+    height: 200px;
+
+    box-shadow: 10px 10px 50px #161616;
+}
+
+.projetos button{
+    font-family: 'Quicksand';
+    font-weight: 700;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+
+    cursor: pointer;
+}
