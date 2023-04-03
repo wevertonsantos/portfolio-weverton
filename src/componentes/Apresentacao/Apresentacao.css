@@ -22,6 +22,22 @@
     margin: 0;
 }
 
+.apresentacao h1::after{
+    margin-left: 5px;
+    content: '|';
+
+    animation: piscar .5s infinite alternate;
+}
+
+@keyframes piscar {
+    from{
+        color: transparent;
+    }
+    to{
+        color: #93e7f4;
+    }
+}
+
 .apresentacao p{
     font-size: 25px;
     margin-top: 10px;
@@ -38,6 +54,8 @@
     padding: 10px;
     border-radius: 20px;
     margin: 10px 5px;
+
+    cursor: pointer;
 }
 
 .apresentacao img{
