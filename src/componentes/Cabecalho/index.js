@@ -1,17 +1,18 @@
 import './Cabecalho.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Cabecalho = ({acao}) => {
 	return(
 		<header className={acao ? 'ativaCor' : ''}>
 			<h1>WS</h1>
-			<div>
+			<nav>
 				<ul>
-					<li><a href=''>Principal</a></li>
-					<li><a href=''>Sobre</a></li>
-					<li><a href=''>Tecnologias</a></li>
-					<li><a href=''>Projetos</a></li>
+					<li><AnchorLink href='#inicio'>Início</AnchorLink></li>
+					<li><AnchorLink href='#sobre'>Sobre</AnchorLink></li>
+					<li><AnchorLink href='#habilidades'>Habilidades</AnchorLink></li>
+					<li><AnchorLink href='#projetos'>Projetos</AnchorLink></li>
 				</ul>
-			</div>
+			</nav>
 		</header>
 	)
 }
