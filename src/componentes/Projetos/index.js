@@ -6,11 +6,6 @@ const Projetos = () => {
             <h1>Projetos</h1>
 
             <div className='container'>
-                <a href='https://github.com/wevertonsantos/organo-reactjs'>
-                    <div className='organo'>
-                    </div>
-                    <p>Página de organização</p>
-                </a>
                 <a href='https://github.com/wevertonsantos/play-requisicoes'>
                     <div className='play-requisicoes'>
                     </div>
