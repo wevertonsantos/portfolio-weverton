@@ -52,3 +52,32 @@ header h1,a{
 	color: #fff;
 	cursor: pointer;
 }
+
+@media (max-width:768px){
+	header h1{
+		margin-left: 10px;
+	}
+	header ul{
+		margin-right: 10px;
+	}
+	
+}
+
+@media (max-width:460px) {
+	.ativaCor{
+		display: none;
+	}
+	header{
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		position: initial;
+	}
+	header nav{
+		display: none;
+	}
+	header h1{
+		margin: 0;
+		text-align: center;
+	}
+}

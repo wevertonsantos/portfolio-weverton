@@ -17,12 +17,24 @@
 }
 
 .container div{
-    margin: 10px;
-    background-color: #fff;
+    margin: 5px 10px;
     width: 300px;
-    height: 200px;
+    height: 165px;
+    padding: 0 20px;
 
     box-shadow: 10px 10px 50px #161616;
+}
+
+.play-requisicoes{
+    background-image: url('../../imagens/plataforma.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.consultalivros{
+    background-image: url('../../imagens/consultalivros.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .projetos button{
@@ -36,4 +48,8 @@
     margin-top: 50px;
 
     cursor: pointer;
+}
+
+.projetos a {
+    text-decoration: none;
 }

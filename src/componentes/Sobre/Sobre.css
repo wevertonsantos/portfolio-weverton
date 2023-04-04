@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     padding: 0 150px;
-    height: 60vh;
+    height: 100vh;
 }
 
 .sobre h1{
@@ -14,4 +14,35 @@
 
 .sobre p{
     font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    .sobre{
+        flex-direction: column;
+    }
+
+    .sobre h1{
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    .sobre p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:460px) {
+    .sobre{
+        flex-direction: column;
+        height: 50vh;
+        padding: 0 50px;
+    }
+    .sobre h1{
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+    .sobre p{
+        font-size: 18px;
+    }
+    
 }

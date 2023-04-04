@@ -36,3 +36,44 @@
     height: 150px;
     width: 300px;
 }
+
+@media (max-width:1024px){
+
+    .tecnologias div{
+        flex-direction: column;
+    }
+
+    .tecnologias-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        width: 250px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 460px){
+
+    .tecnologias h1{
+        margin-bottom: 50px;
+    }
+
+    .tecnologias{
+        margin: 60px 0;
+    }
+    
+    .tecnologias div{
+        margin-top: 0;
+        display: grid;
+    }
+
+    .explicacao{
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .tecnologias-container{
+        margin-bottom: 10px;
+    }
+}
