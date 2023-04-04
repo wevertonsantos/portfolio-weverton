@@ -65,15 +65,12 @@
     
     .tecnologias div{
         margin-top: 0;
-        display: grid;
+        padding: 0;
+        margin-bottom: 50px;
     }
 
     .explicacao{
         text-align: center;
-        margin-top: 50px;
         margin-left: 0;
-    }
-    .tecnologias-container{
-        margin-bottom: 10px;
     }
 }

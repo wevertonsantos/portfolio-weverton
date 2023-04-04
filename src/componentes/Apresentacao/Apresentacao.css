@@ -86,7 +86,7 @@
 
 @media (max-width:460px) {
     .apresentacao{
-        width: 100%;
+        text-align: center;
         padding: 0;
     }
     .apresentacao img{
