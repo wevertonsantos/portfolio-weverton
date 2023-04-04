@@ -37,6 +37,12 @@
     background-size: contain;
 }
 
+.teladecep{
+    background-image: url('../../imagens/paginalogin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .projetos button{
     font-family: 'Quicksand';
     font-weight: 700;

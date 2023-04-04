@@ -16,6 +16,11 @@ const Projetos = () => {
                     </div>
                     <p>Página de consulta de livros</p>
                 </a>
+                <a href='https://github.com/wevertonsantos/screenSearchCEP'>
+                    <div className='teladecep'>
+                    </div>
+                    <p>Tela de procura de CEP</p>
+                </a>
             </div>
 
             <a href='https://github.com/wevertonsantos?tab=repositories'><button>Ver mais</button></a>
