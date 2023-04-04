@@ -7,16 +7,19 @@ const Projetos = () => {
 
             <div className='container'>
                 <a href='https://github.com/wevertonsantos/organo-reactjs'>
-                    <div>
+                    <div className='organo'>
                     </div>
+                    <p>Página de organização</p>
                 </a>
                 <a href='https://github.com/wevertonsantos/play-requisicoes'>
-                    <div>
+                    <div className='play-requisicoes'>
                     </div>
+                    <p>Plataforma de compartilhamento de vídeos</p>
                 </a>
                 <a href='https://github.com/wevertonsantos/consultBooks'>
-                    <div>
+                    <div className='consultalivros'>
                     </div>
+                    <p>Página de consulta de livros</p>
                 </a>
             </div>
 

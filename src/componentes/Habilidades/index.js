@@ -6,7 +6,7 @@ const Habilidades = () => {
     const divExplicacao = document.querySelector('.explicacao')
 
     const explicacaoPadrao = () => {
-        divExplicacao.innerHTML = `Passe o mouse por cima de uma tecnologia para visualizar as informações`
+        divExplicacao.innerHTML = `Passe por cima de uma tecnologia para visualizar as informações`
     }
 
     const explicacaoCss = () => {
@@ -70,7 +70,7 @@ const Habilidades = () => {
                     <h2 className='git' onMouseOver={explicacaoGit} onMouseOut={explicacaoPadrao}><i class="fa-brands fa-github"></i></h2>
                 </div>
                 <div className='explicacao'>
-                    Passe o mouse por cima de uma tecnologia para visualizar as informações
+                    Passe por cima de uma tecnologia para visualizar as informações
                 </div>
             </div>
         </section>
