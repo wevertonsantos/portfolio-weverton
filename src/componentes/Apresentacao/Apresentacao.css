@@ -65,3 +65,34 @@
     max-width: 350px;
     margin-right: 64px;
 }
+
+@media (max-width: 1024px){
+    .apresentacao{
+        justify-content: center;
+    }
+    .apresentacao img{
+        display: none;
+    }
+    .apresentacao div{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .apresentacao{
+        justify-content: center;
+    }
+}
+
+@media (max-width:460px) {
+    .apresentacao{
+        width: 100%;
+        padding: 0;
+    }
+    .apresentacao img{
+        display: none;
+    }
+    .apresentacao div{
+        justify-content: center;
+    }
+}
