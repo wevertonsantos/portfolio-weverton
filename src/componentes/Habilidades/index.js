@@ -39,16 +39,6 @@ const Habilidades = () => {
 
     }
 
-    const explicacaoReact = () => {
-        
-        divExplicacao.innerHTML = `React é um framework JavaScript criado pelo Facebook (atual Meta) 
-                                    que é usado para criar interfaces de usuário (UI) em aplicativos web. 
-                                    Ele é popular por ser fácil de usar, altamente flexível e escalável, 
-                                    e é usado por muitas empresas de tecnologia, incluindo o Facebook, Instagram e Airbnb.
-                                    `
-
-    }
-
     const explicacaoGit = () => {
         
         divExplicacao.innerHTML = `O Git é um sistema de controle de versão distribuído, 
@@ -56,15 +46,6 @@ const Habilidades = () => {
                                      Esses repositórios locais totalmente funcionais facilitam o trabalho offline ou remotamente.
                                     `
 
-    }
-
-    const explicacaoSass = () => {
-        divExplicacao.innerHTML = `O SASS é uma linguagem de extensão do CSS,
-                                     a sigla significa “Syntactically
-                                      Awesome Style Sheets” traduzindo ao pé da letra, folhas de estilo com uma sintaxe incrível.
-                                       A sua ideia é adicionar recursos especiais como variáveis, mixins,
-                                        funções e operações e outras opções variadas que iremos comentar.
-                                    `
     }
 
     return(
@@ -75,9 +56,7 @@ const Habilidades = () => {
                     <h2 className='html' onMouseOver={explicacaoHtml} onMouseOut={explicacaoPadrao}><i class="fa-brands fa-html5"></i></h2>
                     <h2 className='css' onMouseOver={explicacaoCss} onMouseOut={explicacaoPadrao}><i class="fa-brands fa-css3-alt"></i></h2>
                     <h2 className='js' onMouseOver={explicacaoJs} onMouseOut={explicacaoPadrao}><i class="fa-brands fa-square-js"></i></h2>
-                    <h2 className='react' onMouseOver={explicacaoReact} onMouseOut={explicacaoPadrao}><i class="fa-brands fa-react"></i></h2>
                     <h2 className='git' onMouseOver={explicacaoGit} onMouseOut={explicacaoPadrao}><i class="fa-brands fa-github"></i></h2>
-                    <h2 className='sass' onMouseOver={explicacaoSass} onMouseOut={explicacaoPadrao}><i class="fa-brands fa-sass"></i></h2>
                 </div>
                 <div className='explicacao'>
                     Passe por cima de uma tecnologia para visualizar as informações
