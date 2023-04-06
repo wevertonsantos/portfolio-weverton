@@ -58,6 +58,15 @@ const Habilidades = () => {
 
     }
 
+    const explicacaoSass = () => {
+        divExplicacao.innerHTML = `O SASS é uma linguagem de extensão do CSS,
+                                     a sigla significa “Syntactically
+                                      Awesome Style Sheets” traduzindo ao pé da letra, folhas de estilo com uma sintaxe incrível.
+                                       A sua ideia é adicionar recursos especiais como variáveis, mixins,
+                                        funções e operações e outras opções variadas que iremos comentar.
+                                    `
+    }
+
     return(
         <section className="tecnologias" id="habilidades">
             <h1>Habilidades</h1>
@@ -68,6 +77,7 @@ const Habilidades = () => {
                     <h2 className='js' onMouseOver={explicacaoJs} onMouseOut={explicacaoPadrao}><i class="fa-brands fa-square-js"></i></h2>
                     <h2 className='react' onMouseOver={explicacaoReact} onMouseOut={explicacaoPadrao}><i class="fa-brands fa-react"></i></h2>
                     <h2 className='git' onMouseOver={explicacaoGit} onMouseOut={explicacaoPadrao}><i class="fa-brands fa-github"></i></h2>
+                    <h2 className='sass' onMouseOver={explicacaoSass} onMouseOut={explicacaoPadrao}><i class="fa-brands fa-sass"></i></h2>
                 </div>
                 <div className='explicacao'>
                     Passe por cima de uma tecnologia para visualizar as informações
